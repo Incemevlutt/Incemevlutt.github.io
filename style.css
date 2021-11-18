@@ -1,0 +1,134 @@
+
+body{ 
+text-align: left;
+padding-left: initial;
+padding-right: 75px;
+padding: 75px;
+}
+h1{ 
+    color: black;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+h2{
+    color: black;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h3{
+    color: black;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    color: black;
+    text-align: center;
+    font-weight: 200;
+    font-size: medium;
+}
+
+html {
+    background-color:  rgb(224, 224, 255);
+    padding: auto;
+
+}
+
+input{
+    margin: 2px; ;
+    width: auto;
+    padding: 5px;
+    float: left;
+    box-shadow: rgb(46, 46, 45);
+}
+
+li{
+    list-style: none;
+}
+
+ul li:hover{
+    background-color: rgb(148, 145, 158);
+}
+ul li.checked{
+    background-color: rgb(252, 217, 22);
+    color: white;
+    text-decoration:line-through
+}
+button{
+  color: blue;
+  text-align: center;
+  tab-size: 3px;
+}
+
+.search-container{
+    background:rgb(188, 188, 255);
+    height: 30px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.6s;
+    .search-container:hover > .search-input{
+     width: 400px;
+    }
+}
+
+.button {
+    background-color:rgb(170, 170, 247);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    text-align:center;
+    
+  }
+  .button:hover {opacity: 20}  
+
+
+ .add-container{
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+
+ }
+
+ .header{
+    background-color: rgb(188, 188, 255);
+    
+}
+
+ .arrow-up{
+     text-align: right;
+     position: relative;
+     
+
+ }
+     
+ }
+ .arrow-down{
+     text-align: right;
+     position: relative;
+
+ }
+ .arrowup-circle{
+     text-align: right;
+     position: relative;
+    
+ }
+ .arrowdown-circle{
+     text-align: right;
+ }
+ .delete-icon{
+     text-align: right;
+ }
+
