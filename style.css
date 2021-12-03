@@ -28,11 +28,7 @@ p{
     font-size: medium;
 }
 
-html {
-    background-color:  rgb(255, 253, 253);
-    padding: auto;
 
-}
 
 input{
     margin: 2px; ;
@@ -160,17 +156,18 @@ button{
     border-radius: 0.25rem;
 }
 
-@media screen and (max-width:850px){
-
-}
 
 
+  @media  (min-width: 360px) and (max-width:812px) {
+   .all{ 
+    justify-items: right;
+    justify-content: space-evenly;
 
 
-
-
-
-
+   }
+  }
+    
+ 
 
 
 
